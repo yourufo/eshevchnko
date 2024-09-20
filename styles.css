@@ -11,32 +11,30 @@ body, html {
 
 .menu-section {
   background-color: #d5d5d5;
-  font: 400 15px Arial, sans-serif;
+  font: 400 30px Arial, sans-serif;
   padding: 10px;
   display: flex;
-  flex-direction: column;
   position: fixed;
-  width: 100%;   /* Ширина меню на всю страницу */
+  width: 100%;
   top: 0;
   z-index: 10;   /* Указываем, что меню будет над катей */
 }
 
 .Главная {
   position: absolute;
-  top: 10px; /* Сверху 10px */
-  left: 20px; /* Слева 20px */
+  top: 15px; /* Сверху 10px */
+  left: 200px; /* Слева 20px */
   margin: 0; /* Сбрасываем авто-отступы */
-  font: 400 15px Arial, sans-serif; /* Указываем стиль текста */
+  font: 400 20px Arial, sans-serif; /* Указываем стиль текста */
 }
 
 .Проекты {
   position: absolute;
-  top: 10px; /* Сверху 10px */
-  left: 100px; /* Слева 100px, это пример, можно изменить как угодно */
+  top: 15px; /* Сверху 10px */
+  left: 350px; /* Слева 100px, это пример, можно изменить как угодно */
   margin: 0; /* Сбрасываем авто-отступы */
-  font: 400 15px Arial, sans-serif; /* Указываем стиль текста */
+  font: 400 20px Arial, sans-serif; /* Указываем стиль текста */
 }
-
 
 .katya-section {
   background-color: #ffffff;
@@ -62,7 +60,6 @@ body, html {
   margin-top: 74px;
 }
 
-
 button {
   background-color: #ff0000;  /* Красный цвет */
   color: white;
@@ -80,4 +77,35 @@ button {
   color: #ff0000;
   font-size: 24px;
   margin-top: 20px;
+}
+
+.footer-section{
+  font: 400 15px Arial, sans-serif;
+  z-index: 20;   /* Указываем, что меню будет над катей */;
+  width: 100%;
+  display: flex;
+  bottom: 0px;
+  position: fixed;
+  background-color: #c1c1c1;
+  padding: 25px 0; /* Добавляем внутренние отступы */
+  box-sizing: border-box; /* Учитываем padding в ширину */
+}
+
+.Всеправазащищены {
+  width: 100%;   /* Ширина на всю страницу */
+  position: fixed; /* Фиксируем позицию */
+  bottom: 0;    /* Располагаем внизу */
+  text-align: left;
+  left: 10%; 
+}
+
+.projects{
+  background-color: #ffffff;
+  color: #000;
+  padding: 0px 70px;
+  font: 300 84px Arial, sans-serif;
+}
+
+.message{
+  Font: 300 40px Arial, sans-serif;
 }
