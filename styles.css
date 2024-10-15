@@ -99,13 +99,15 @@ button {
   left: 10%; 
 }
 
+/* -------------Проекты---------------*/
+
 .projects{
   background-color: #ffffff;
   color: #000;
-  padding: 0px 70px;
-  font: 300 84px Arial, sans-serif;
+  padding: 500px 50px 344px 50px  ;
+  margin-top: 0px;  
 }
 
 .message{
-  Font: 300 40px Arial, sans-serif;
+  font: 400 40px Arial, sans-serif;
 }
