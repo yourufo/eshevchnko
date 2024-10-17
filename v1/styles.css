@@ -1,5 +1,5 @@
 h2{
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: rgb(34, 32, 32);
@@ -35,4 +35,32 @@ a
 
 img{
   width: 40%;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.project-card {
+  width: 30%; /* Чтобы было в оддин ряд поставить 10% */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.project-card a {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(0, 141, 59);
+  font-weight: 600;
 }
